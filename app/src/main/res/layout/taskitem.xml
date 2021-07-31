@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_100sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_7sdp"
+    android:padding="@dimen/_7sdp"
+    android:background="@drawable/button_new">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:id="@+id/taskImage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task name"
+            android:layout_toRightOf="@+id/taskImage"
+            android:id="@+id/taskName"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/aldrich"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/taskDetails"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/taskName"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_toRightOf="@+id/taskImage"
+            android:text="Task Details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_8ssp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name" translatable="false">Diamond Uc</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="facebook_app_id" translatable="false">1072661196494202</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1072661196494202</string>
+
+    <string name="ad_colony_app_id" translatable="false">app408c9e3307f7443c8a</string>
+    <string name="username">username</string>
+    <string name="save">Save</string>
+    <string name="YouneedMoneyJustmakeit">You need Money \nJust make it</string>
+    <string name="earngain">Earn Diamonds\nMake money\nBuy pubg Uc or whatever you want.</string>
+    <string name="haveaccount">Have an account? Log In</string>
+    <string name="firsttime">First time? Sign Up</string>
+    <string name="history">history</string>
+    <string name="invite">invite friends</string>
+    <string name="inviteearn">Invite you Friend\n\nEarn 50 diamonds</string>
+    <string name="send">send</string>
+    <string name="phoneemail">Phone Number or Email address</string>
+    <string name="password">password</string>
+    <string name="forget">Forget your password?</string>
+    <string name="log">Log In</string>
+    <string name="logwith">Log In with</string>
+    <string name="luckyt">Lucky Tow</string>
+
+    <string name="luckinstD">-Diamond lucky tow is available everyday at 14:00(GMT+3)\n-it costs 30 diamonds to generate lucky code\n-if your are the lucky winner, contact us!</string>
+
+
+    <string name="download">Download crown pang and earn money and pubg UC</string>
+
+
+    <string name="yourcode">Your Lucky Code</string>
+    <string name="luckywinner">Last tow winner</string>
+    <string name="lastluckyname">Name:</string>
+    <string name="lastluckycode">Lucky code:</string>
+    <string name="offers">offers</string>
+    <string name="roominst">-the room will start after entering 60 player\n-the player with the most kills is the winner\n-it costs 100 diamonds to enter a room\n-if your are the winner, contact us!\n-the room at 12:00 am</string>
+    <string name="Enter">Enter</string>
+    <string name="NumberofEntries">Number of Entries</string>
+    <string name="Lastroomwinner">Last room winner</string>
+    <string name="playerID">player ID:</string>
+    <string name="rooms">rooms</string>
+    <string name="norooms">No rooms are available now</string>
+    <string name="agree">agree our policies</string>
+    <string name="signup">Sign Up</string>
+    <string name="signupwith">sign up with</string>
+    <string name="powerd">powered by AZEM</string>
+    <string name="watchvideo">watch video</string>
+    <string name="videoinst">isnt it simple?\n\nwatch a diamond video\n\nEarn 10 diamonds</string>
+    <string name="videoinst2">watch a diamond video\n\nEarn 5 diamonds</string>
+
+    <string name="enteryourphone">Enter Your Paypal account:</string>
+    <string name="cashsend">we will send you the amount via paypal in 2–3 business days(all week days except Friday and Saturday), press Done to request the amount.</string>
+    <string name="done">Done</string>
+    <string name="cancel">cancel</string>
+    <string name="Enterpubgid">Enter Your pubg ID:</string>
+    <string name="EnterYourpubgusername">Enter Your pubg username(make sure it is the correct username}</string>
+    <string name="pubgsend">we will send you the required UC amount in 2–3 business days(all week days except Friday and Saturday), press Done to request the amount.</string>
+    <string name="transitiondetails">transition details</string>
+    <string name="insufficiencydiamonds">insufficiency diamonds</string>
+    <string name="youdonthave">you do not have enough diamonds to make this request</string>
+    <string name="enterroomdialoge">Enter your pubg id and username and you will be added to the room</string>
+    <string name="enterfreefireid">Enter Your Free Fire UD:</string>
+
+
+    <string name="entercodid">Enter Your Call of Duty ID:</string>
+    <string name="sendcod">we will send you the required CP amount 2–3 business days(all week days except Friday and Saturday), press Done to request the amount.</string>
+    <string name="EnterYourcpusername">Enter Your Call of Duty username(make sure it is the correct username}</string>
+
+
+    <string name="sendfreefire">we will send you the required Diamonds amount 2–3 business days(all week days except Friday and Saturday), press Done to request the amount.</string>
+    <string name="daily">daily Tasks</string>
+    <string name="Prooms">Pubg Rooms</string>
+    <string name="vaildphoneorfacebok">Enter your Facebook link or WhatsApp number:</string>
+    <string name="othersend2">We will  send you the card code to your WhatsApp number or Facebook account in 2–3 business days(all week days except Friday and Saturday)</string>
+    <string name="specialTasks">special Tasks</string>
+    <string name="specialRewards">special Rewards</string>
+    <string name="tasks">tasks</string>
+    <string name="cons">History is under construction</string>
+    <string name="freefireusername">Enter your free fire Username(make sure it is the correct username}</string>
+    <string name="lordsUsername">Enter your lord mobile Username(make sure it is the correct username)</string>
+    <string name="enterlordid">Enter Your lord mobile ID:</string>
+    <string name="sendlord">we will send you the required Diamonds amount in 2–3 business days(all week days except Friday and Saturday), press Done to request the amount.</string>
+    <string name="log_out">Log out</string>
+
+    <string name="legendzone">Enter Your legend mobile Zone_ID</string>
+    <string name="enterlegendid">Enter Your legend mobile User_ID</string>
+    <string name="sendlegend">we will send you the required Diamonds amount in 2–3 business days(all week days except Friday and Saturday), press Done to request the amount.</string>
+
+
+    <string name="day1">Day 1</string>
+    <string name="day2">Day 2</string>
+    <string name="day3">Day 3</string>
+    <string name="day4">Day 4</string>
+    <string name="day5">Day 5</string>
+    <string name="day6">Day 6</string>
+    <string name="day7">Day 7</string>
+
+    <string name="c20">5 diamonds</string>
+    <string name="c50">10 diamonds</string>
+    <string name="c100">30 diamonds</string>
+    <string name="c180">50 diamonds</string>
+    <string name="c250">90 diamonds</string>
+    <string name="c350">120 diamonds</string>
+    <string name="c500">200 diamonds</string>
+
+    <string name="collect">collect</string>
+
+    <string name="editprof">Edit Your Profile</string>
+    <string name="requests">Requests</string>
+
+    <string name="policy">Notes:–There is no refund policy in diamond UC, so if your request got refused for any reason there is no way to get your diamonds back, so make sure you entered your correct information\n–requests are refreshed and removed every thursday\n-requests are sent after 2-3 business days(all days except friday and saturday) </string>
+
+
+    <string name="noreq">No Requests</string>
+    <string name="fees">exclude fees</string>
+    <string name="open2021">opens in January 2021</string>
+
+    <string name="vpn2">for better experience Download our VPN</string>
+
+
+</resources>

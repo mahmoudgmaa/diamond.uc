@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondry"
+    tools:context=".navigatorFragments.profile.profileFragment">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/editYourProfile"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_black_new2"
+        android:fontFamily="@font/aldrich"
+        android:padding="@dimen/_3sdp"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:text="@string/editprof"
+        />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_below="@+id/editYourProfile"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_black_new2"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aldrich"
+        android:padding="@dimen/_3sdp"
+        android:text="@string/history"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/requests"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_below="@+id/history"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_black_new2"
+        android:fontFamily="@font/aldrich"
+        android:padding="@dimen/_3sdp"
+        android:text="@string/requests"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/contactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/aldrich"
+        android:text="Contact Us"
+        android:layout_above="@+id/rrrr"
+        android:textColor="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/_14ssp" />
+
+    <RelativeLayout
+        android:id="@+id/rrrr"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_above="@+id/r2r2"
+        android:visibility="gone"
+        android:background="@drawable/button_blue_new">
+
+        <ImageView
+            android:id="@+id/ffff"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_toLeftOf="@+id/ffmfmf"
+            android:src="@drawable/facebbok" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/ffmfmf"
+            android:fontFamily="@font/aldrich"
+            android:text="Crown Pang on facebok"
+            android:textColor="#2195F2"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/_11ssp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2r2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/button_purple_new">
+
+        <ImageView
+            android:id="@+id/iiii"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/oipop"
+            android:src="@drawable/instagram" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/oipop"
+            android:fontFamily="@font/aldrich"
+            android:text="Crown Pang on instgram"
+            android:layout_centerHorizontal="true"
+            android:textColor="#A129A6"
+            android:layout_marginLeft="@dimen/_1sdp"
+            android:textSize="@dimen/_11ssp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r3r3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@+id/contactUs"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/button_red_new">
+
+        <ImageView
+            android:id="@+id/gggg"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_toLeftOf="@+id/gmkil"
+            android:src="@drawable/gmail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gmkil"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/aldrich"
+            android:text="Diamond UC on Gmail"
+            android:textColor="#F34336"
+            android:layout_marginLeft="@dimen/_1sdp"
+            android:textSize="@dimen/_11ssp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:background="@drawable/button_black_new2"
+        android:layout_below="@+id/r3r3"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/crownnew"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:id="@+id/img"
+            android:layout_marginBottom="@dimen/_2sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aldrich"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:textSize="@dimen/_11ssp"
+            android:text="Crown Pang"
+            android:id="@+id/txt1"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aldrich"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_below="@id/txt1"
+            android:textSize="@dimen/_8ssp"
+            android:layout_toLeftOf="@id/download"
+            android:text="@string/download"/>
+
+        <Button
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:background="@drawable/button2_diamond"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:text="download"
+            android:textColor="@color/white"
+            android:padding="@dimen/_2sdp"/>
+
+
+           </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.AZEM.diamonduc2.initialActivities.splashScreen"
+    android:background="@color/primary"
+    android:padding="20dp">
+
+<ImageView
+    android:layout_width="@dimen/_140sdp"
+    android:layout_height="@dimen/_140sdp"
+    android:src="@drawable/gems"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/appImage"
+    android:layout_marginTop="@dimen/_15sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/app_name"
+        android:id="@+id/nameOfApp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_above="@+id/powered" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="powered by AZEM"
+        android:id="@+id/powered"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/white"
+
+        />
+
+</RelativeLayout>

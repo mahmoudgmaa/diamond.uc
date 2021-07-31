@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_170sdp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.AZEM.diamonduc2.navigatorFragments.mainFragment"
+    android:layout_centerVertical="true"
+    android:layout_margin="@dimen/_8sdp"
+
+    android:background="@drawable/button_black_new2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:text="@string/enteryourphone"
+        android:textColor="@color/white"
+        android:id="@+id/t"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t"
+        android:id="@+id/phoneNumberEditText"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_7sdp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        app:met_baseColor="@color/white"
+        app:met_primaryColor="@color/white"
+        app:met_textColorHint="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumberEditText"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:text="@string/cashsend"
+        android:id="@+id/t2"/>
+
+    <Button
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_23sdp"
+        android:background="@drawable/button5"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_7sdp"
+        android:layout_alignParentRight="true"
+        android:text="@string/done"
+        android:textColor="@color/white"
+        android:id="@+id/cashDoneRequest"
+        android:layout_below="@+id/t2" />
+
+    <Button
+        android:layout_toLeftOf="@+id/cashDoneRequest"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_23sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/button_black"
+        android:text="@string/cancel"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/cashCancelRequest"
+        android:layout_below="@+id/t2" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_170sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerVertical="true"
+    android:layout_margin="@dimen/_8sdp"
+    android:background="@drawable/button_black_new2"
+    tools:context="com.AZEM.diamonduc2.initialActivities.login">
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:text="Enter Your Phone Email:"
+        android:textColor="@color/white" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/forgetEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_7sdp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        app:met_baseColor="@color/white"
+        app:met_primaryColor="@color/white"
+        app:met_textColorHint="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgetEmailEditText"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:text="we'll send you a password reset link to your email."
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/forgetDoneRequest"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_23sdp"
+        android:layout_below="@+id/t2"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_7sdp"
+        android:background="@drawable/button5"
+        android:text="Done"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/forgetCancelRequest"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_23sdp"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/forgetDoneRequest"
+        android:background="@drawable/button_black"
+        android:text="cancel"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

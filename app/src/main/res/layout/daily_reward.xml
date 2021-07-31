@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@drawable/button_black_new"
+    android:elevation="@dimen/_3sdp"
+    tools:context=".initialActivities.MainActivity"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/d7"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_190sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_7sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/button_black_new2"
+        android:elevation="@dimen/_1sdp"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/txtd7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/day7"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/bigC"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:src="@drawable/gems" />
+
+        <TextView
+            android:id="@+id/txtd72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bigC"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/c500"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp" />
+
+        <Button
+            android:id="@+id/day7"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/button2"
+            android:text="@string/collect"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/_3sdp"
+        android:layout_toLeftOf="@+id/d7"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/button_black_new2">
+
+                <TextView
+                    android:id="@+id/txtd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/day1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_8ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/firstC"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_below="@+id/txtd1"
+                    android:src="@drawable/diamond" />
+
+                <TextView
+                    android:id="@+id/txtd12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/firstC"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/c20"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp" />
+
+                <Button
+                    android:id="@+id/day1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/button2"
+                    android:text="@string/collect"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/button_black_new2">
+
+                <TextView
+                    android:id="@+id/txtd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/day2"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_8ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/secondC"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_below="@+id/txtd2"
+                    android:src="@drawable/diamond" />
+
+                <TextView
+                    android:id="@+id/txtd22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/secondC"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/c50"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp" />
+
+                <Button
+                    android:id="@+id/day2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/button2"
+                    android:text="@string/collect"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/button_black_new2">
+
+                <TextView
+                    android:id="@+id/txtd3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/day3"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_8ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/thirdC"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_below="@+id/txtd3"
+                    android:src="@drawable/diamond" />
+
+                <TextView
+                    android:id="@+id/txtd32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thirdC"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/c100"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp" />
+
+                <Button
+                    android:id="@+id/day3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/button2"
+                    android:text="@string/collect"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/button_black_new2">
+
+                <TextView
+                    android:id="@+id/txtd4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/day4"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_8ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/fourthC"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_below="@+id/txtd4"
+                    android:src="@drawable/diamond" />
+
+                <TextView
+                    android:id="@+id/txtd42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/fourthC"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/c180"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp" />
+
+                <Button
+                    android:id="@+id/day4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/button2"
+                    android:text="@string/collect"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/button_black_new2">
+
+                <TextView
+                    android:id="@+id/txtd5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/day5"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_8ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/fifthC"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_below="@+id/txtd5"
+                    android:src="@drawable/diamond" />
+
+                <TextView
+                    android:id="@+id/txtd52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/fifthC"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/c250"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp" />
+
+                <Button
+                    android:id="@+id/day5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/button2"
+                    android:text="@string/collect"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/button_black_new2">
+
+                <TextView
+                    android:id="@+id/txtd6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/day5"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_8ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/sixthC"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_below="@+id/txtd6"
+                    android:src="@drawable/diamond" />
+
+                <TextView
+                    android:id="@+id/txtd62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sixthC"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/c350"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp" />
+
+                <Button
+                    android:id="@+id/day6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/button2"
+                    android:text="@string/collect"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6ssp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

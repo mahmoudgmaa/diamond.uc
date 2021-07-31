@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondry"
+    tools:context=".navigatorFragments.profile.Requests">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/requestsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/primary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/requests"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.applovin.mediation.ads.MaxAdView xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/adViewRequests"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/requestsToolbar"
+        android:visibility="gone"
+        maxads:adUnitId="9d4f60d2a20ca2c9"></com.applovin.mediation.ads.MaxAdView>
+
+    <TextView
+        android:id="@+id/policy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adViewRequests"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_2sdp"
+        android:text="@string/policy"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_8ssp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/requestsRec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView79"
+        android:layout_below="@+id/policy" />
+
+    <com.startapp.sdk.ads.banner.Banner
+        android:id="@+id/adView79"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/noreq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/noreq"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp"
+        android:visibility="gone" />
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/adView145"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        ads:adSize="BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-6437456633370907/5377335011"/>-->
+
+    <com.startapp.sdk.ads.banner.Mrec
+        android:id="@+id/startAppMrec"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

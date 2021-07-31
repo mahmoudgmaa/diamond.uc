@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <entry>
+        <key>diamond_video</key>
+        <value>1</value>
+    </entry>
+
+
+
+    <entry>
+        <key>invite_quantity</key>
+        <value>10</value>
+    </entry>
+
+
+</defaultsMap>

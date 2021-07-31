@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.AZEM.diamonduc2.initialActivities.firstScreen"
+    android:background="@color/secondry"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:src="@drawable/diamond"
+        android:id="@+id/logo"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:orientation="vertical"
+        android:layout_below="@+id/logo"
+        android:id="@+id/linear3"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aldrich"
+            android:textStyle="bold"
+            android:text="@string/YouneedMoneyJustmakeit"
+            android:textSize="@dimen/_25ssp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:text="@string/earngain"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logInBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@id/linear3"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/button2"
+        android:text="@string/haveaccount"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:fontFamily="@font/aldrich"
+        android:textSize="@dimen/_10ssp" />
+
+    <Button
+        android:layout_height="@dimen/_30sdp"
+        android:id="@+id/signUpBtn"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_below="@id/logInBtn"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:fontFamily="@font/aldrich"
+        android:background="@drawable/button2"
+        android:textSize="@dimen/_10ssp"
+        android:text="@string/firsttime"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

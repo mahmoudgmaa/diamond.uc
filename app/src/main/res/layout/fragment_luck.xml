@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondry"
+    android:padding="@dimen/_3sdp"
+    tools:context=".navigatorFragments.luck">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:id="@+id/relrelrelrel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:background="@drawable/button_new_diamond"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_3sdp">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_14sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16ssp" />
+
+                <ImageView
+                    android:id="@+id/gift"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_140sdp"
+                    android:layout_below="@+id/date"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:src="@drawable/diamond_award" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:layout_toLeftOf="@+id/generateLucky"
+                    android:text="@string/luckinstD"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_7ssp"
+                    android:layout_alignParentLeft="true" />
+
+                <Button
+                    android:id="@+id/generateLucky"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="@dimen/_7sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:background="@drawable/button2_diamond"
+                    android:fontFamily="@font/aldrich"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Generate"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ron"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_below="@+id/relrelrelrel"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:background="@drawable/button_new_diamond"
+                android:elevation="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/yourcode"
+                    android:textColor="@color/diamond"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/usersCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:text="N/A"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rew"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_below="@+id/ron"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/button_new_diamond"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_3sdp">
+
+                <TextView
+                    android:id="@+id/winner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/_7sdp"
+                    android:fontFamily="@font/aldrich"
+                    android:text="@string/luckywinner"
+                    android:textColor="@color/diamond"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/linlin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/winner"
+                    android:layout_margin="@dimen/_7sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:text="@string/lastluckyname"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11ssp" />
+
+                    <TextView
+                        android:id="@+id/winnerName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:text="N/A"
+                        android:textColor="@color/diamond"
+                        android:textSize="@dimen/_11ssp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linlin"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:text="@string/lastluckycode"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_11ssp" />
+
+                    <TextView
+                        android:id="@+id/winnerCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aldrich"
+                        android:text="N/A"
+                        android:textColor="@color/diamond"
+                        android:textSize="@dimen/_11ssp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

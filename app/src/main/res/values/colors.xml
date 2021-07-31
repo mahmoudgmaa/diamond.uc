@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#BE1B80</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="checked">#004156</color>
+    <color name="second">#fad06c</color>
+    <color name="third">#f7f2e5</color>
+    <color name="fourth">#776D5E</color>
+    <!--    <color name="primary">#212121</color>-->
+    <color name="primary">#000000</color>
+    <color name="secondry">#212121</color>
+    <color name="thirdly">#303030</color>
+
+    <color name="diamond">#BE1B80</color>
+    <color name="silver">#CCCECE</color>
+
+
+    <!--    <color name="secondry">#303030</color>-->
+    <!--    <color name="thirdly">#424242</color>-->
+</resources>

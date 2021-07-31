@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300973282333",
+    "firebase_url": "https://diamonduc-42c1d-default-rtdb.firebaseio.com",
+    "project_id": "diamonduc-42c1d",
+    "storage_bucket": "diamonduc-42c1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300973282333:android:3143269dfbcd2ede61a2f4",
+        "android_client_info": {
+          "package_name": "com.AZEM.diamonduc2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300973282333-q4sug7s53nuahb04nup7hludrf0m8fko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC5Qtch6UqNhyT0ncYUgUmcRabXaxqFHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300973282333-p0ru6k2v9prqvg96tusrbtpro2hi7lqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

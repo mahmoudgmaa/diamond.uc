@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondry"
+    tools:context=".navigatorFragments.profile.historyActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/historyToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/primary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/aldrich"
+                android:text="@string/history"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.applovin.mediation.ads.MaxAdView xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/adViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_below="@+id/historyToolbar"
+        maxads:adUnitId="9d4f60d2a20ca2c9"></com.applovin.mediation.ads.MaxAdView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/historyRec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView78"
+        android:layout_below="@+id/adViewHistory"
+        android:layout_marginTop="@dimen/_5sdp" />
+
+<!--    <com.startapp.sdk.ads.banner.Banner-->
+<!--        android:id="@+id/adView78"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true" />-->
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/adView78"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        ads:adSize="BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-6437456633370907/5377335011"/>-->
+
+    <com.startapp.sdk.ads.banner.Mrec
+        android:id="@+id/startAppMrec"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

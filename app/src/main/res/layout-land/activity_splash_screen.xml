@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/primary"
+    tools:context="com.AZEM.diamonduc2.initialActivities.splashScreen">
+
+    <ImageView
+        android:id="@+id/appImage"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/gems" />
+
+    <TextView
+        android:id="@+id/nameOfApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/powered"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/powered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:text="@string/powerd"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

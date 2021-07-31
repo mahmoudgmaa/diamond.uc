@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Earn"
+    android:icon="@drawable/earn"
+    android:id="@+id/earn"/>
+    <item android:title="Rewards"
+        android:icon="@drawable/clover"
+        android:id="@+id/reward"/>
+    <item android:title="Profile"
+        android:icon="@drawable/profile"
+        android:id="@+id/profile"/>
+</menu>

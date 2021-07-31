@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">اسم المستخدم</string>
+    <string name="save">حفظ</string>
+    <string name="YouneedMoneyJustmakeit">هل تحتاج الي المال\n قم بجنيه بسهولة</string>
+    <string name="earngain">اجني الجواهر\nاجني المال\nاشتري شدات ببج او اي شئ تحجوهرةه.</string>
+    <string name="haveaccount">هل تملك حساب؟ قم بتسجيل الدخول</string>
+    <string name="firsttime">اول مرة؟ قم بانشاء حساب</string>
+    <string name="history">السجل</string>
+    <string name="invite">دعوة الاصدقاء</string>
+    <string name="inviteearn">ادعو صديقك\n\nواحصل علي 50 جوهرة</string>
+    <string name="send">ارسل</string>
+    <string name="phoneemail">رقم الهاتف او البريد الالكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="forget">هل نسيت كلمة المرور؟</string>
+    <string name="log">نسجيل الدخول</string>
+    <string name="logwith">تسجيل الدخول بواسطة</string>
+    <string name="luckyt">كود الحظ</string>
+    <string name="luckinstD">-كود الحظ الماسي يكون متاح كل يوم الساعة 14:00 بتوقيت مكة المكرمة ولمدة ساعتين\n-تكلفة الكود 30 جوهرة فقط\n-اذا كنت الفائز المحظوظ قم بمحادثتنا</string>
+    <string name="yourcode">كود الحظ الخاص بك</string>
+    <string name="luckywinner">الفائز السابق</string>
+    <string name="lastluckyname">الاسم: </string>
+    <string name="lastluckycode">كود الحظ الخاص به: </string>
+    <string name="offers">العروض</string>
+
+
+    <string name="download"> قم بتنزيل Crown Pang واربح المال وشدات بابجي</string>
+
+
+    <string name="roominst">-تبدأ الروم بعد انضمام 60 شخص\n-اللاعب صاحب اكبر عدد قتلات هو الفائز\n-تكلفة دخول الروم 100 جوهرة فقط\n-ان كنت اللاعب الفائز حدثنا\n-تبدأ الرومات الساعة الثانية عشر مساء بتوقيت مكة</string>
+    <string name="Enter">الدخول</string>
+    <string name="NumberofEntries">عدد الاعضاء المنضمة</string>
+    <string name="Lastroomwinner">الفائز السابق</string>
+    <string name="playerID">ID اللاعب</string>
+    <string name="rooms">رومات</string>
+    <string name="norooms">لا يوجد رومات متوفرة</string>
+    <string name="enterroomdialoge">ادخل pubg id الخاص بك واسم المستخدم وستتم اضافتك الي room</string>
+
+    <string name="agree">موافق علي سياستنا</string>
+    <string name="signup">انشاء حساب</string>
+    <string name="signupwith">انشاء حساب بواسطة</string>
+    <string name="powerd">مدعوم بواسطة AZEM</string>
+    <string name="watchvideo">مشاهدة فيديو</string>
+    <string name="videoinst">اليست بتلك البساطة\nشاهد فيديو جوهرة\nواحصل علي 10 جواهر</string>
+    <string name="videoinst2">او شاهد قيديو جوهرة\n واحصل علي 5 جواهر</string>
+    <string name="enteryourphone">ادخل حساب paypal الخاص بك:</string>
+    <string name="cashsend">سوف نرسل لك الكمية المطلوبة خلال 2-3 ايام عمل(كل ايام الاسبوع عدا يوم الجمعة والسبت)، اضغط موافقة لاتمام العملية</string>
+    <string name="done">موافقة</string>
+    <string name="cancel">اغلاق</string>
+    <string name="Enterpubgid">ادخل pubg id الخاص بك</string>
+    <string name="EnterYourpubgusername">ادخل اسم المستخدم الخاص بك في لعبة pubg</string>
+    <string name="pubgsend">سوف نرسل لك الشدات المطلوبة خلال 2-3 ايام عمل(كل ايام الاسبوع عدا يوم الجمعة والسبت)، اضغط موافقة لاتمام العملية(تاكد من ادخال اسم المستخدم الخاص بك بشكل صحيح).</string>
+    <string name="transitiondetails">تفاصيل العملية</string>
+    <string name="insufficiencydiamonds">لا يوجد جواهر كافية</string>
+    <string name="youdonthave">لا تملك عدد جواهر كافية لاتمام تلك العملية</string>
+
+
+    <string name="entercodid">ادخل call of duty id الخاص بك</string>
+    <string name="sendcod">سوف نرسل لك cp المطلوبة خلال 2-3 ايام عمل(كل ايام الاسبوع عدا يوم الجمعة والسبت)، اضغط موافقة لاتمام العملية(تاكد من ادخال اسم المستخدم الخاص بك بشكل صحيح).</string>
+    <string name="EnterYourcpusername">ادخل اسم المستخدم الخاص بك في لعبة call of duty</string>
+
+    <string name="enterfreefireid">ادخل الud الخاص بك في لعبة Free Fire</string>
+    <string name="sendfreefire">سوف نرسل لك الجواهر المطلوبة خلال 2-3 ايام عمل(كل ايام الاسبوع عدا يوم الجمعة والسبت)، اضغط موافقة لاتمام العملية(تاكد من ادخال اسم المستخدم الخاص بك بشكل صحيح).</string>
+    <string name="daily">المهام اليومية</string>
+    <string name="Prooms">منافسات بابج</string>
+    <string name="vaildphoneorfacebok">ادخل رابط حساب الفيسبوك الخاص بك او رقم هاتفك</string>
+    <string name="othersend2">سوف نرسل لك كود البطاقة خلال 2-3 ايام عمل(كل ايام الاسبوع عدا يوم الجمعة والسبت)، اضغط موافقة لاتمام العملية.</string>
+    <string name="specialTasks">مهام خاصة</string>
+    <string name="specialRewards">عروض خاصة</string>
+    <string name="tasks">المهام</string>
+    <string name="cons">السجل تحت الصيانة</string>
+    <string name="freefireusername">ادخل اسم المستخدم الخاص بك في free fire</string>
+    <string name="lordsUsername">ادخل اسم المستخدم الخاص بك في lord mobile</string>
+    <string name="enterlordid">ادخل الid الخاص بك في لعبة Free Fire</string>
+    <string name="sendlord">سوف نرسل لك الجواهر المطلوبة خلال 2-3 ايام عمل(كل ايام الاسبوع عدا يوم الجمعة والسبت)، اضغط موافقة لاتمام العملية(تاكد من ادخال اسم المستخدم الخاص بك بشكل صحيح).</string>
+
+
+    <string name="log_out">تسجيل الخروج</string>
+
+
+    <string name="legendzone">ادخل الZone-id الخاصة بك في لعبة mobile legend</string>
+    <string name="enterlegendid">ادخل الUser-id الخاصة بك في لعبة mobile legend</string>
+    <string name="sendlegend">سوف نرسل لك الجواهر المطلوبة خلال 2-3 ايام عمل(كل ايام الاسبوع عدا يوم الجمعة والسبت)، اضغط موافقة لاتمام العملية.</string>
+
+
+    <string name="day1">اليوم 1</string>
+    <string name="day2">اليوم 2</string>
+    <string name="day3">اليوم 3</string>
+    <string name="day4">اليوم 4</string>
+    <string name="day5">اليوم 5</string>
+    <string name="day6">اليوم 6</string>
+    <string name="day7">اليوم 7</string>
+
+    <string name="c20">20 جوهرة</string>
+    <string name="c50">50 جوهرة</string>
+    <string name="c100">100 جوهرة</string>
+    <string name="c180">150 جوهرة</string>
+    <string name="c250">200 جوهرة</string>
+    <string name="c350">250 جوهرة</string>
+    <string name="c500">350 جوهرة</string>
+
+    <string name="collect">اجمع</string>
+
+    <string name="editprof">تعديل بياناتك</string>
+    <string name="requests">الطلبات</string>
+
+    <string name="policy">-لا توجد سياسة لارجاع النقاط في التطبيق لذا تأكد من ادخال بياناتك الصحيحة\n-الطلبات يتم تجديدها ومسحها كل يوم خميس\n-يتم ارسال السحوبات بعد 2-3 ايام عمل(كل ايام الاسبوع ماعدا يوم الجمعة والسبت) من تاريخ قبول السحبة</string>
+
+    <string name="noreq">لا يوجد اي طلبات</string>
+    <string name="fees">لا يتضمن الرسوم</string>
+
+    <string name="open2021">ستبدأ في يناير 2021</string>
+
+    <string name="vpn2"> من اجل تجربة افضل حاول استخدام الVPNالخاص بنا</string>
+
+
+</resources>
